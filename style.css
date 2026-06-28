@@ -1,0 +1,97 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+html,body{
+    height: 100%;
+    width: 100%; 
+}
+#main{
+     height: 100%;
+    width: 100%;
+    margin-left: 0%;
+    margin: 0%;
+    background-color: rgb(144, 142, 141);
+}
+#header{
+    width: 100%;
+    height: 10%;
+    background-color:rgb(109, 28, 189);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20PX;
+
+}
+#header img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;  
+    margin-right: 20px;
+    object-fit: cover;
+}
+
+
+
+.text{
+    margin-bottom: 9%;
+    margin-right: 65%;
+      justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    scroll-margin-top: 20%;
+    
+     margin: 0;
+}
+.intro{
+margin-left: 15px;
+}
+.intro p{
+    font-size: 20px;
+    line-height: 1.8;
+    text-align: justify;
+    letter-spacing: 0.3px;
+}
+.intro h3{
+    letter-spacing: 1.8;
+     font-size: 20px;
+    line-height: 1.8;
+}
+.edu{
+    width: 45%;
+    padding: 20px;
+    min-height: 100px;
+     letter-spacing: 1.8;
+     font-size: 20px;
+    line-height: 1.8;
+    margin: 0%;
+    height: 15%;   
+    margin-bottom: 20%;
+    justify-content: center;
+    align-items: center;
+}
+#content{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 20px;
+    gap: 50px;
+}
+.skills{
+    margin-top: 5%;
+    margin-bottom: 15%;
+    gap: 40px;
+    margin: 20px;
+    text-align: center;
+}
+a{
+    color: rgb(2, 35, 202);
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
